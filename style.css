@@ -18,7 +18,7 @@ h1 {
 
 .pokedex {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 20px;
     padding-inline-start: 0;
 }
@@ -72,7 +72,7 @@ h1 {
 }
 
 .rock {
-	background-color: #d5d5d4;
+	background-color: #b1b1ae;
 }
 
 .fairy {
@@ -133,28 +133,4 @@ h1 {
     position: relative;
     z-index: 2;
 }
-
-
-/* Animação */
-
-
-.card:hover {
-    animation: bounce 0.5 linear;
-}
-
-@keyframes bounce {
-    20% {
-        transform: translateY(-6px);
-    }
-    40% {
-        transform: translateY(0px);
-    }
-    80% {
-        transform: translateY(-2px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
 
