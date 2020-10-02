@@ -1,7 +1,6 @@
 body {
-    /* background: linear-gradient(to right, #9cecfb, #65c7f7, #0052d4); */
     background: '#EFEFBB';
-    background: linear-gradient(to right, #00467f, #a5cc82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
     color: white;
     margin: 0;
     font-family: rubiki;
@@ -60,7 +59,7 @@ h1 {
     background-color: #DEFDE0;
 }
 
-.eletric {
+.electric {
     background-color: #FCF7DE;
 }
 
@@ -82,6 +81,10 @@ h1 {
 
 .poison {
 	background-color: #98d7a5;
+}
+
+.ghost {
+    background-color: #c892f7;
 }
 
 .bug {
